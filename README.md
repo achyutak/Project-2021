@@ -6,7 +6,7 @@
   pages={10},
   year={2017}
 }
-# Project-2021
+# Project-2021 - Shakespearizing Modern English
 Link to paper: https://arxiv.org/abs/1707.01161
 <p>This project evaluates the efficacy of the COPY model proposed by Jhamtani et al with the standard seq2seq model.<br>
 There are two directories in this repository. The Pointer Model and seq2seq directories have code for <br>
