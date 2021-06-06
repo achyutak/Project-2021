@@ -11,4 +11,4 @@ The project is implemented in the following steps
  Step 2: The Word_embeddings.ipynb vectorizes the pre-processed data and saves the embeddings in the pickle format
  Step 3: In the Decision_Tree.ipynb, the vectorized data is fed to a Decision Tree Classifier from scikit-learn and the final model is evaluated and saved
  Step 4: In the Neural_Networks.ipynb, the vectorized data from step 2 is fed into a Convolutional Neural Network and the final model is evaluated and saved
-
+In steps 2,3,4 the dataset is processed in batches to avoid over usage of RAM.
