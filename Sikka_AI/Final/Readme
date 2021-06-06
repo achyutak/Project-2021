@@ -1,0 +1,13 @@
+This project is a Toxic Comment Classification Challenge available on Kaggle in the link below <br>
+https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/<br>
+
+Please download the datasets or make a copy of the files available in the following link to your personal drive<br>
+https://drive.google.com/drive/folders/1gcd-rH06xsTgi9LSqpZmo49mZk7laYrT?usp=sharing <br>
+
+The entire project is coded in Colab Pro with GPU Hardware accelerator and HIGH-RAM Runtime shape<br>
+<p><h3>The project is implemented in the following steps<br></h3>
+<list>
+<li>Step 1: In the Pre-Processing.ipynb, you can clearly see the analysis and decisions that are made to prepare the dataset for Machine Learning algorithms</li>
+<li>Step 2: The Word_embeddings.ipynb vectorizes the pre-processed data and saves the embeddings in the pickle format</li>
+<li>Step 3: In the Decision_Tree.ipynb, the vectorized data is fed to a Decision Tree Classifier from scikit-learn and the final model is evaluated and saved</li>
+<li>Step 4: In the Neural_Networks.ipynb, the vectorized data from step 2 is fed into a Convolutional Neural Network and the final model is evaluated and saved</li>
